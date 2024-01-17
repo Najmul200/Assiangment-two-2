@@ -425,7 +425,7 @@ line-height: normal;
     margin-top: 80px;
 }
 
-/* @media screen and (max-width:576px){
+@media screen and (max-width:576px){
     .header{
         padding: 20px;
     }
@@ -438,14 +438,4 @@ line-height: normal;
         grid-template-columns: 1fr;
     }
     
-}
-
-@media screen and (min-width:576px) and (max-width:960px) {
-    .header{
-        padding: 50px;
-    }
-
-    nav{
-        flex-direction: column;
-    }
-} */
+} 
