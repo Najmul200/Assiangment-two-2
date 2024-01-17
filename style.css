@@ -1,0 +1,328 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;800&display=swap');
+
+*{
+  font-family: 'Mulish', sans-serif;
+}
+
+
+  .header,main{
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  nav > ul {
+    display: flex;
+
+  }
+  nav  li {
+    list-style: none;
+    margin-right: 30px;
+    /* width: 500px; */
+    font-size: 1rem;
+  }
+  nav li a {
+    text-decoration: none;
+  }
+  nav h3{
+    color: #131318;
+font-family: Mulish;
+font-size: 36px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+  }
+.nav-title{
+    font-size: 2.8rem;
+
+  }
+  .home{
+    color: #FF5400;
+  }
+  .travel{
+    color: #FF5400;
+  font-family: Mulish;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  }
+  .left-nav{
+    display: flex;
+    align-items: center;
+    width: 648px;
+  }
+
+.letter{
+    
+    background: linear-gradient(to top, rgb(0, 0, 0, 0.5) 50%, rgb(0, 0, 0, 0.5) 50%), url(Images/Group\ 13\ \(1\)\ \(1\).png);
+    
+    border-radius: 16px;
+    width: 1170px;
+    height: 500px;
+    flex-shrink: 0;
+    margin: 50px auto 0 auto;
+    
+    
+   
+  
+}
+.letter{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid red;
+}
+.explore, .read{
+  margin-top: 500px;
+}
+
+.read{
+  color: #FFF;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  padding: 5px;
+  margin: 0;
+  margin-bottom: 300px;
+}
+.explore{
+  color: #FFF;
+  font-family: Mulish;
+  font-size: 64px;
+  font-style: normal;
+  text-align: center;
+  font-weight: 800;
+  line-height: normal;
+  padding-top: 20px;
+  padding: 0;
+  margin: 0;
+  margin-top: 150px;
+
+
+}
+.input{
+  position: relative;
+  background: rgba(255, 255, 255, 0.30);
+  border-radius: 8px;
+  padding: 16px;
+  margin-left: 300px;
+  gap: 24px;
+  
+}
+.tour-heading{
+  color: #131318;
+  font-family: Mulish;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.paragraph{
+  color: #5A5A5D;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+.read-button{
+  background-color: #FF5400;
+  border-radius: 8px;
+  width: 174px;
+  height: 52px;
+  flex-shrink: 0;
+}
+.popular{
+  display: flex;
+
+}
+.tour{
+  width: 1440px;
+}
+.imag{
+  height: 355px;
+  margin-top: 55px;
+}
+
+
+.choose{
+  color: #131318;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-top: 70px;
+  
+}
+
+.dolar{
+  color: rgba(19, 19, 24, 0.70);
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+
+}
+
+.container-1{
+  background-image: url(Images/Rectangle\ 5.png);
+  background-repeat: no-repeat;
+  height: 300px;
+  flex-shrink: 0;
+  width: 50%;
+  height: 300px;
+}
+.maldives{
+  color: #FFF;
+  font-family: Mulish;
+  font-size: 28px;
+  text-align: center;
+  padding:130px;
+}
+
+.container-2{
+  background-image: url(Images/Rectangle\ 8.png);
+  width: 50%;
+  height: 300px;
+  flex-shrink: 0;
+  background-repeat: no-repeat;
+}
+.indonesia{
+  color: #FFF;
+  font-family: Mulish;
+  font-size: 28px;
+  text-align: center;
+  padding:130px;
+}
+.container{
+  display: flex;
+}
+
+.container-3{
+  background-image: url(Images/Rectangle\ 6.png);
+  width: 30%;
+  height: 300px;
+  flex-shrink: 0;
+  background-repeat: no-repeat;
+}
+.srilanka{
+  color: #FFF;
+  font-family: Mulish;
+  font-size: 28px;
+  text-align: center;
+  padding:130px;
+}
+.container-4{
+  background-image: url(Images/Rectangle\ 7.png);
+  width: 38%;
+  height: 300px;
+  flex-shrink: 0;
+  background-repeat: no-repeat;
+}
+.North-America{
+  color: #FFF;
+  font-family: Mulish;
+  font-size: 28px;
+  text-align: center;
+  padding: 100px;
+}
+.container-5{
+  background-image: url(Images/Rectangle\ 9.png);
+  width: 30%;
+  height: 300px;
+  flex-shrink: 0;
+  background-repeat: no-repeat;
+}
+.Kashmir{
+  color: #FFF;
+  font-family: Mulish;
+  font-size: 28px;
+  text-align: center;
+  padding:130px;
+}
+.containers{
+  display: flex;
+  margin-top: 20px;
+  gap: 2%;
+}
+
+.container-6{
+  background-image: url(Images/Rectangle\ 11.png);
+  width: 40%;
+  height: 300px;
+  flex-shrink: 0;
+  background-repeat: no-repeat;
+}
+.Bangladesh{
+  color: #FFF;
+  font-family: Mulish;
+  font-size: 28px;
+  text-align: center;
+  padding:130px;
+}
+
+.container-7{
+  background-image: url(Images/Rectangle\ 10.png);
+  width: 58%;
+  height: 300px;
+  flex-shrink: 0;
+  background-repeat: no-repeat;
+}
+.Bandarban{
+  color: #FFF;
+  font-family: Mulish;
+  font-size: 28px;
+  text-align: center;
+  padding:130px;
+}
+
+.containe{
+  display: flex;
+}
+
+
+
+
+
+
+
+
+
+/* @media screen and (max-width:576px){
+    .header{
+        padding: 20px;
+    }
+
+    nav,
+    .contain{
+        flex-direction: column;
+    }
+    .container-img{
+        grid-template-columns: 1fr;
+    }
+    
+}
+
+@media screen and (min-width:576px) and (max-width:960px) {
+    .header{
+        padding: 50px;
+    }
+
+    nav{
+        flex-direction: column;
+    }
+} */
